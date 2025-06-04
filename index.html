@@ -629,7 +629,7 @@
                 bar3: S3,
                 ID: "3A01"  // 👈 固定 ID 寫死在這裡
               };
-              var qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" +
+              var qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=" +
                 encodeURIComponent("FAMI||" + JSON.stringify(jsonData));
               qrImg.src = qrUrl;
               qrImg.alt = "QR Code";
